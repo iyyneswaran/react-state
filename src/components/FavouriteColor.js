@@ -6,6 +6,8 @@ function FavouriteColor() {
 
     const [color, setColor] = useState('Blue');
 
+    console.log('current color:', color);
+
     return (
         <>
             <h1>My favourite color is {color}</h1>
